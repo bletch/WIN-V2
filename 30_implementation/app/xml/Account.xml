@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Account table="account">
+  <id type="primaryKey" />
+  <user type="foreignKey" />
+  <rank type="property" />
+  <holiday type="property" />
+</Account>

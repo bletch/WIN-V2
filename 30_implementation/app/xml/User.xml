@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<User table="user">
+  <id type="primaryKey" />
+  <username type="property" />
+  <password type="property" />
+</User>

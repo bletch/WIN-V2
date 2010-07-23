@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>WIN Testmap</title>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+
+  <body onLoad="requestMap(2,2);">
+    <div id="up" onclick="moveMap('up');" style="width:265px;height:20px;">
+     <img width="265" height="20" src="arrow_up.png" />
+    </div>
+
+    <div id="left" onclick="moveMap('left');" style="width:20px;height:225px;float:left;">
+     <img width="20" height="225" src="arrow_left.png" />
+    </div>
+
+    <div id="map" style="width:225px;height:225px;float:left;">
+    </div>
+
+    <div id="right" onclick="moveMap('right');" style="width:20px;height:225px;float:left;">
+     <img width="20" height="225" src="arrow_right.png" />
+    </div>
+
+    <div id="down" onclick="moveMap('down');" style="width:265px;height:20px;">
+     <img width="265" height="20" src="arrow_down.png" />
+    </div>
+
+  </body>
+</html>
